@@ -1,0 +1,8 @@
+class Program
+{
+    System.Console.WriteLine("Enter a number : ");
+    int a = int.Parse(Console.ReadLine());
+    System.Console.WriteLine("Enter another number : ");
+    int b = int.Parse(Console.ReadLine());
+    System.Console.WriteLine($"The sum of {a} and {b} is {a + b}");
+}
