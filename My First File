@@ -6,4 +6,5 @@ class Program
     int b = int.Parse(Console.ReadLine());
     System.Console.WriteLine($"The sum of {a} and {b} is {a + b}");
     System.Console.WriteLine($"The difference of {a} and {b} is {a - b}");
+    System.Console.WriteLine($"The product of {a} and {b} is {a * b}");
 }
